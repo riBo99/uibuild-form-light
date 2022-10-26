@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7e4d4;
+    text-align: center;
+} 
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: 48px;
+    text-align: center;
+    color: #467745;
+    margin: 0
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    max-width: 480px;
+    height: 64px;
+    color: #467745;
+    border: none;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+textarea {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    max-width: 480px;
+    height: 120px;
+    color: #467745;
+    border: none;
+    padding: 15px;
+}
+
+.terms {
+    display: flex; 
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; 
+    color: #467745;
+    margin-left: 15px;
+}
+
+.check {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: underline;
+    color: #467745;
+    
+}
+
+input {
+    border: none;
+}
+
+button {
+    display: flex;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 21px;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    max-width: 280px;
+    height: 80px;
+    background-color: #467745;
+    color: #f7e4d4;
+    border: none;
+    letter-spacing: 0.2em;
+    border-radius: 60px;
+    margin: 0;
+    padding: 0 80px 0 80px;
+    
+}
+
+
+
+@media only screen and (max-width: 520px) {
+    h1 {
+        font-size: 36px;
+        text-align: left;
+        margin-left: 20px;
+    }
+    .text {
+        width: calc(100% - 40px);
+        left: 20px;
+    }
+    textarea {
+        width: calc(100% - 40px);
+        left: 20px;
+    }
+    .terms {
+        left: 20px;
+        text-align: left;
+    }
+  }
